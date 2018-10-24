@@ -1,1 +1,1 @@
-discord.py
+web.py==0.37
