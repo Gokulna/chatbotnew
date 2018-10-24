@@ -1,0 +1,130 @@
+body {
+    font-family: Garamond;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 87%;
+    border: none;
+    border-bottom: 3px solid #009688;
+    font-family: monospace;
+    font-size: 17px;
+}
+#buttonInput {
+    padding: 3px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+     margin:80px;
+}
+
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+    margin:10px;
+}
+
+.botText span{
+    position: relative;
+	background: #d5155c;
+	border: 5px solid #20731d;
+	padding:30px;
+	margin:10px 0px;
+}
+.botText span:after, .botText span:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.botText span:after {
+	border-color: rgba(213, 21, 92, 0);
+	border-left-color: #d5155c;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.botText span:before {
+	border-color: rgba(32, 115, 29, 0);
+	border-left-color: #20731d;
+	border-width: 37px;
+	margin-top: -37px;
+}
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
+.userText span {
+	position: relative;
+	background: #1f7312;
+	border: 5px solid #f54046;
+	padding:30px;
+	margin:10px 0px;
+}
+.userText span:after, .userText span:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.userText span:after {
+	border-color: rgba(31, 115, 18, 0);
+	border-right-color: #1f7312;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.userText span:before {
+	border-color: rgba(245, 64, 70, 0);
+	border-right-color: #f54046;
+	border-width: 37px;
+	margin-top: -37px;
+}
