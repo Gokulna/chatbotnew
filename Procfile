@@ -1,1 +1,1 @@
-web: python  --bind 0.0.0.0:$PORT app.py
+web: python app.py $PORT
